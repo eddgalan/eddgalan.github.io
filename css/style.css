@@ -1,70 +1,145 @@
-body{
-  background-color: #A0AEB6;
+.navbar-brand, .active{
+  color:#0B76F6 !important;
 }
 
-h4 i{
-  color:#677176;
+#photo{
+  max-width: 210px;
+  margin-bottom: 25px;
+  border-radius: 15px;
 }
-
-.whatsapp_icon{
-  color:#20D714 !important;
-}
-.instagram_icon{
-  color:#F03A16 !important;
-}
-.github_icon{
-  color:#615D5C !important;
-}
-/* hover social link */
-.social_link:hover{
-  color:#FFF;
-}
-.link_certificado{
-  color:#FFF !important;
-}
-.link_certificado:hover{
-  color:#817C7C;
-}
-h3{
-  margin-top:15px;
-  font-size:25px;
-  color:#4973FE !important;
-}
-.card-title{
-  color:#4973FE !important;
-}
-.main_container{
-  margin-top:10px; margin-bottom:20px;
-}
-.contenedor{
-  padding-left:25px; padding-right:0px;
-}
-.fa-file-pdf{
-  color:#F74242;
-}
-
-/* ACCORDION BOOTSTRAP */
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
+.open-modal{
   cursor: pointer;
-  padding: 18px;
+}
+.container-img {
+  position: relative;
   width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color:#3A3737;
+
+.img-porta{
+  height: 185px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container-img:hover .overlay-text {
+  opacity: 1;
+}
+
+.text-fade {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* ..:: Slide Img ::.. */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container-img-slide {
+  position: relative;
+}
+
+/* Hide the images by default */
+.slide_ordernow, .mySlides {
   display: none;
-  overflow: hidden;
-  color:white;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo_ordernow, .demo_facturacion, .demo_tarjetas {
+  opacity: 0.6;
+}
+
+.active,
+.demo_ordernow:hover, .demo_facturacion:hover, .demo_tarjetas:hover {
+  opacity: 1;
+}
+.thumbnail{
+  padding: 0px 15px 0px 15px !important;
 }

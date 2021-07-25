@@ -1,301 +1,536 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Desarrollador Web - Edson Galan Rosano</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scale=no">
-	<meta name="title" content="Edson Galan Rosano | Web Developer Jr.">
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="assets/js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="assets/js/mdb.min.js"></script>
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="assets/css/mdb.min.css">
-  <!-- CSS Files -->
-  <link rel=StyleSheet href="css/style.css" type="text/css">
-  <link rel=StyleSheet href="css/responsive.css" type="text/css">
-</head>
-<body>
-    <div class="col row main_container">
-      <div class="col-md-4 contenedor">
-        <!-- ..:: Tarjeta ::.. -->
-        <div class="card">
-          <div class="view overlay">
-            <img class="card-img-top" src="img/my_self.jpg" alt="Edson Galan Rosano">
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Soy jr. web developer. Aquí encontrarás un poco de mi formación y experiencia en esta área.">
+        <meta name="author" content="Edson Galán Rosano" />
+        <title>My Web Site | Edson Galán </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/fonts/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/fonts/fontawesome5-overrides.min.css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+            <div class="container"><a class="navbar-brand" href="#page-top">Jr. Web Developer</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about_of_me">Acerca de mi</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#formacion">Formación</a></li>
+                        <li class="nav-item" style="display:none;"><a class="nav-link js-scroll-trigger" href="#tecnologias">Experiencia laboral</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portafolio">Portafolio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead" style="background-image:url('./assets/img/background_01.jpg');">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in"></div>
+                    <div class="intro-heading text-uppercase"><span style="color:#E6E6E7;">Es un gusto conocerte</span></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" href="#about_of_me" style="color:#343a40;">Cuéntame más</a>
+                </div>
+            </div>
+        </header>
+        <!-- ..:: Acerca de mi ::.. -->
+        <section id="about_of_me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-uppercase section-heading">Acerca de mi</h2>
+                        <h3 class="text-muted section-subheading" style="margin-top:20px !important; margin-bottom:20px !important;">¿Quién soy?</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-2 col-sm-12"></div>
+                  <div class="col-md-8 col-sm-12">
+                    <img id="photo" src="./assets/img/me_00.JPG">
+                    <!-- <h4 class="section-heading">Presentación</h4> -->
+                    <p class="text-muted text-justify">
+                        Mi nombres es Edson Galán soy una persona apasionada por la programación, la tecnología y el desarrollo de
+                        software. Soy una persona muy autodidacta y me gusta aprender cosas nuevas, afrontar nuevos retos e
+                        intercambiar conocimiento.<br>
+                        Tengo más de dos años de experiencia en el desarrollo web, me considero un desarrollador web fullstrack.
+                        Las principales tecnologías con las que trabajo son HTML, CSS, Javascript, jQuery, PHP, MySQL, MariaDB,
+                        Python, Git, GitHub, entre otras y me encuentro en continuo aprendizaje de nuevos lenguajes,
+                        herramientas y tecnologías.
+                    </p>
+                  </div>
+                  <div class="col-md-2 col-sm-12"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ..:: Formación ::.. -->
+        <section id="formacion" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-uppercase section-heading">Formación</h2>
+                        <h3 class="text-muted section-subheading">
+                          Desde hace tiempo he complementando mi formación profesional con algunos cursos en diferentes plataformas de internet
+                          como Platzi, Udemy, EDTeam e incluso con videos de YouTube. Actualmente continuo tomando cursos y
+                          consultando contenido para mejorar, seguir aprendiendo y conocer más herramientas y tecnologías.
+                        </h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-java"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-java fa-stack-1x fa-inverse"></i></span>
+                      <h4 class="section-heading">Fundamentos de Java</h4>
+                      <p class="text-muted">
+                        En Octubre de 2016 hice un examen para certificarme en fundamentos de Java. La certificación fue realizada por
+                        Develop.
+                      </p>
+                  </div>
+                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-lineacomandos"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-terminal fa-stack-1x fa-inverse"></i></span>
+                      <h4 class="section-heading">Línea de comandos (Linux)</h4>
+                      <p class="text-muted">
+                        Fue un curso teórico-práctico de 12 horas en la plataforma de Platzi.
+                      </p>
+                  </div>
+                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-git"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-git-alt fa-stack-1x fa-inverse"></i></span>
+                      <h4 class="section-heading">Git y GitHub<br><br></h4>
+                      <p class="text-muted">
+                        Este curso tuvo una duración de 22 horas de teoría y práctica en la plataforma de Platzi.
+                      </p>
+                  </div>
+                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-python fa-stack-1x fa-inverse"></i></span>
+                      <h4 class="section-heading">Fundamentos de Python</h4>
+                      <p class="text-muted">
+                        Fue un curso breve de Python con duración de 16 horas donde se explican sus fundamentos.
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- ..:: Portafolio ::.. -->
+        <section id="portafolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-uppercase section-heading">Portafolio</h2>
+                        <h3 class="text-muted section-subheading">
+                          Durante mi proceso de aprendizaje he desarrollado algunos proyectos para poder reforzar mis
+                          conocimientos y ponerlos en práctica. Algunos de mis mejores proyectos son los siguientes.
+                        </h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                  <!-- ..:: Order Now ::.. -->
+                  <div class="col-md-6 col-lg-4 mb-5">
+                      <h3 class="text-center"> Order Now <h3>
+                      <div class="mx-auto" data-toggle="modal" data-target="#modal-ordernow" onclick="reset_index()">
+                          <div class="container-img">
+                            <img class="img-fluid image img-porta" src="./assets/img/proyects/ordernow/OrderNow_00.jpeg" alt="...">
+                            <div class="overlay-text">
+                              <div class="text-fade">
+                                Es un sitio web para envíar comida a domicilio. Es un sitio parecido a Uber Eats. <br>Da clic para ver más información
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ..:: Tarjetas Lealtad ::.. -->
+                  <div class="col-md-6 col-lg-4 mb-5">
+                      <h3 class="text-center"> Tarjetas Lealtad <h3>
+                      <div class="mx-auto" data-toggle="modal" data-target="#modal-tarjetas"  onclick="reset_index()">
+                          <div class="container-img">
+                            <img class="img-fluid image img-porta" src="./assets/img/proyects/tarjetas/Tarjetas-000.PNG" alt="...">
+                            <div class="overlay-text">
+                              <div class="text-fade">
+                                Es un pequeño sistema para administrar tarjetas tipo cashback. <br>Da clic para ver más información
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ..:: Sistema Facturación ::.. -->
+                  <div class="col-md-6 col-lg-4 mb-5">
+                      <h3 class="text-center"> Sistema Facturación <h3>
+                      <div class="mx-auto" data-toggle="modal" data-target="#modal-facturacion"  onclick="reset_index()">
+                          <div class="container-img">
+                            <img class="img-fluid image img-porta" src="./assets/img/proyects/facturacion/facturacion_00.PNG" alt="...">
+                            <div class="overlay-text">
+                              <div class="text-fade">
+                                Es un sistema hecho en PHP para poder emitir CFDIs. Genera comprobantes y se pueden timbrar. <br>Da clic para ver más información
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <!-- <h3 class="text-muted section-subheading">
+                      En mi perfil de <a href="" target="_blank"> GitHub </a> puede encontrar más sobre mi trabajo. Los enlaces a mis redes están en la parte de abajo.
+                    </h3> -->
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- ..:: FOOTER ::.. -->
+        <footer style="background-color:#212529;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"><span class="copyright">Edson Galán </span></div>
+                    <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item"><a href="https://github.com/eddgalan"><i class="fab fa-github"></i></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/edd.developer.97/"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- <ul class="list-inline quicklinks">
+                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ..:: MODALS ::.. -->
+        <!-- ..:: Constancia | Java ::.. -->
+        <div class="modal fade" id="modal-constancia-java">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Certificaciones | Fundamentos de Java </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img class="img-fluid" src="./assets/img/certificaciones/fundamentos_java.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Mediante un examen de conocimientos de Java logré acreditar esta certificación. El examen cubría
+                      temas básicos del lenguaje: Lectura de datos, estructuras condicionales, estructuras cíclicas,
+                      tipos de datos y funciones.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="card-body elegant-color white-text rounded-bottom">
-            <h4 class="card-title text-center"> <i class="fas fa-laptop-code"></i> Web Developer Jr.</h4>
-            <hr class="hr-light">
-            <p class="card-text white-text mb-4 text-justify">
-              Mi nombre es Edson Galan Rosano, tengo 24 años de edad, soy estudiante de ingeniería en computación en la
-              Escuela Superior de Ingeniería Mecánica y Eléctrica (ESIME) Unidad Culhuacán.
-              Tengo más de un año como desarrollador web, se usar las siguientes tecnologías HTML, CSS, Javascript, jQuery, PHP, Python, Django,
-              Git, GitHub, AJAX, Docker, Bootstrap, etc.
-            </p>
-            <div class="col row">
-              <!-- Email -->
-              <div class="col">
-                <a href="mailto:edd.galan@hotmail.com" target="_blank" class="social_link"><i class="far fa-envelope" style="font-size:40px";></i></a>
+        </div>
+        <!-- ..:: Constancia | Línea de comandos ::.. -->
+        <div class="modal fade" id="modal-constancia-lineacomandos">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Certificaciones | Línea de comandos en Linux </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
-              <!-- Instagram -->
-              <div class="col">
-                <a href="https://www.instagram.com/edd.developer.97/" target="_blank" class="instagram_icon social_link"><i class="fab fa-instagram" style="font-size:40px";></i></a>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img class="img-fluid" src="./assets/img/certificaciones/terminal_comandos.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Fue un curso introductorio a la línea de comandos de Linux. Aprendí a usar algunos comandos
+                      básicos del sistema como navegar entre directorios, crear archivos y directorios,
+                      instalar algunas aplicaciones, incluso aprendí a editar archivos con el editor Vim.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <!-- GitHub -->
-              <div class="col">
-                <a href="https://github.com/eddgalan" target="_blank" class="github_icon social_link"><i class="fab fa-github" style="font-size:40px";></i></a>
-              </div>
-              <!-- Linkedin -->
-              <div class="col">
-                <a href="https://www.linkedin.com/in/edson-galan-rosano-3aa60a110/" target="_blank" class="social_link"><i class="fab fa-linkedin" style="font-size:40px";></i></a>
-              </div>
-              <!-- Freelancers -->
-              <div class="col">
-                <a href="https://www.freelancer.com/u/eddgalan97" target="_blank" class="social_link">
-                  <img src="img/freelancer.png" class="img-fluid" style="max-width:60px;">
-                </a>
-              </div>
-            </div>
-            <hr class="hr-light">
-            <h4>Habilidades</h4>
-            <div class="col">
-              <i class="fas fa-check"></i>  Trabajo en equipo
-            </div>
-            <div class="col">
-              <i class="fas fa-check"></i>  Trabajo bajo presión
-            </div>
-            <div class="col">
-              <i class="fas fa-check"></i>  Autodidacta
-            </div>
-            <div class="col">
-              <i class="fas fa-check"></i>  Buena comunicación
-            </div>
-            <div class="col">
-              <i class="fas fa-check"></i>  Comprender y análisar información
-            </div>
-            <div class="col">
-              <i class="fas fa-check"></i>  Persistente
-            </div>
-            <div class="col">
-              <i class="fas fa-check"></i>  Tolerante
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-8 contenedor" >
-        <!-- Formación Académica -->
-        <div class="card">
-          <div class="card-body elegant-color white-text rounded-bottom">
-            <!-- Formación Académica -->
-            <h4> <i class="fas fa-graduation-cap"></i> Formación Académica</h4>
-            <hr class="hr-light">
-            <!-- ESIME -->
-            <button class="accordion text-center">ESIME Culhuacán (2016 – Actualidad) </button>
-            <div class="panel">
-              <h3><i class="fas fa-laptop"></i> Ingeniería en Computación</h3>
-              <p class="text-justify">
-                Actualmente soy estudiante de la Escuela Superior de Ingeniería Mecánica y Eléctrica Unidad Culhuacán.
-                Curso el 5to semestre de la carrera que consta de 8 semestres. He obtenido conocimiento en POO, programación avanzada en C y C++,
-                programación en Java y en electrónica analógica y digital.
-              </p>
+        <!-- ..:: Constancia | Git y GitHub ::.. -->
+        <div class="modal fade" id="modal-constancia-git">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Certificaciones | Línea de comandos en Linux </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img class="img-fluid" src="./assets/img/certificaciones/git_github.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Un curso muy completo para aprender a usar Git y GitHub. Sé usar los comandos más importantes de
+                      Git para poder crear repositorios, descargarlos, subir cambios, descargar cambios, trabajar con ramas,
+                      hacer merge-request, entre otras acciones.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- CECYTEM -->
-            <button class="accordion text-center">CECYTEM (2012 – 2015) </button>
-            <div class="panel">
-              <h3><i class="fas fa-toolbox"></i> Técnico en Mantenimiento de Equipos y Sistemas de Cómputo</h3>
-              <p class="text-justify">
-                Cursé mi bachillerato tecnológico en el Colegio de Estudios Científicos y Tecnológicos del Estado de México,
-                donde obtuve conocimientos en Configuración de equipos de cómputo (Instalación de software y hardware), mantenimiento
-                preventivo y correctivo, lenguajes de programación, manejo de consultas básicas a Bases de Datos
-                (MySQL, Ms Access) y conocimientos básicos de redes (LAN).
-              </p>
-            </div>
-
-            <!-- Formación Académica -->
-            <br><br>
-            <h4> <i class="fas fa-briefcase"></i> Experiencia Laboral</h4>
-            <hr class="hr-light">
-            <!-- Desarrollador Web Jr. - DESICI -->
-            <button class="accordion text-center"> Desarrollador Web Jr. (2019 - Actualidad) </button>
-            <div class="panel">
-              <h3>Desarrollo de Sistemas Corporativos en Internet (DESICI)</h3>
-              <p class="text-justify">
-                Estuve como becario en el área de desarrollo y soporte.
-                Participé en diferentes proyectos de desarrollo y al mismo tiempo daba soporte técnico remoto a una
-                extranet de clientes de la empresa. Aprendí a desarrollar en equipo con Github, desarrollo de APIs con
-                PHP y también con el framework de Django. Aprendí a utilizar muchas herramientas de desarrollo como GitHub,
-                Postman, Docker, etc. Aprendí y fortalecí mis conocimientos con las siguientes tecnologías: AJAX, PHP, Gitlab,
-                Docker, Postman, Python, Django, Javascript, jQuery, HTML, CSS.
-              </p>
-            </div>
-            <!-- Soporte Técnico - Totalplay -->
-            <button class="accordion text-center">  Soporte Técnico - Call Center (2019 - 2019) </button>
-            <div class="panel">
-              <h3>Totalplay</h3>
-              <p class="text-justify">
-                Trabajé por unos meses como ejecutivo de soporte telefónico en Totalplay, daba apoyo vía telefónica a clientes finales de la
-                empresa, apoyándoles con problemas de cualquiera de los 3 servicios que ofrece la empresa (Cable, Telefonía e
-                Internet).
-              </p>
-            </div>
-            <!-- Soporte Técnico - PIU Capital -->
-            <button class="accordion text-center">  Soporte Técnico - Help Desk (2017 - 2018) </button>
-            <div class="panel">
-              <h3>PIU Capital</h3>
-              <p class="text-justify">
-                Laboré por casi dos años aquí. Apoyaba vía remota a los empleados de las sucursales de Grupo Salinas (Banco Azteca,
-                Elektra, Salinas y Rocha, etc.)
-                con problemas en el sistema, errores técnicos y de usuario, apoyaba a los empleados a realizar algunos procesos. Aprendí a
-                utilizar muchas herramientas (Mitrol, Remedy, SQLin, entre otros), también aprendí algunos procesos de banco.
-                Fortalecí mis conocimientos sobre consultas en Bases de Datos ya que en la mayoría de los casos se tenía que
-                consultar la información en SQLin.
-              </p>
-            </div>
-            <!-- Soporte Técnico - DESICI -->
-            <button class="accordion text-center">  Soporte Técnico - Help Desk (2014 - 2016) </button>
-            <div class="panel">
-              <h3>Desarrollo de Sistemas Corporativos en Internet (DESICI)</h3>
-              <p class="text-justify">
-                Aquí fue mi primer acercamiento con el mundo laboral. Comencé realizando mi servicio social en la empresa DESICI
-                Al concluir mi servicio me ofrecieron la posibilidad de trabajar y aquí estuve por casi dos años.
-                Daba soporte técnico vía remota a los clientes de la empresa. Les apoyaba vía telefónica, correo y chat.
-                Aprendí a usar diferentes herramientas de control remoto, usar diferentes softwares de punto de venta y desarrollé
-                habilidades de trabajo en equipo, trabajo bajo presión, tolerancia y seguimiento a incidencias.
-              </p>
-            </div>
-
-            <!-- ..:: Formación Adicional | Certificados ::.. -->
-            <br><br>
-            <h4> <i class="fas fa-scroll"></i> Formación Adicional</h4>
-            <hr class="hr-light">
-            <p>
-              Desde hace tiempo he complementando mi formación con algunos cursos en diferentes plataformas de internet como
-              Platzi, Udemy, EDTeam e incluso con videos de YouTube. Actualmente continuo tomando cursos o viendo tutoriales
-              para mejorar, seguir aprendiendo y conocer más herramientas y tecnologías.
-            </p>
-            <!-- Certificado Java -->
-            <button class="accordion text-center"> <i class="fab fa-java"></i>  | Fundamentos Java </button>
-            <div class="panel">
-              <h3> Fundamentos Programación Java - Develop </h3>
-              <p class="text-justify">
-                En Octubre del 2016 encontré en internet una invitación a realizar un examen de certificación de fundamentos
-                de programación en Java, así que me registré y preparé para el examen. Logré aprobarlo y recibí la certificación
-                por parte de Develop.
-              </p>
-              <a href="https://www.dropbox.com/s/b57q1b8jtw87f7y/Develop-FundamentosDeJava.pdf?dl=0" class="link_certificado" target="_blank"><b> <i class="far fa-file-pdf"></i> Ver certificado </b></a>
-            </div>
-            <!-- Certificado Terminal de Comandos -->
-            <button class="accordion text-center"> <i class="fas fa-terminal"></i>  | Línea de comandos (Linux) </button>
-            <div class="panel">
-              <h3>  Platzi  | Introducción a terminal y línea de comandos </h3>
-              <p class="text-justify">
-                Esta certificación es de un curso de Platzi de terminal y línea de comandos de Linux que consta de 12 horas de contenido.
-                Logré aprender algunos comandos básicos para la terminal de línux, como navegar entre carpetas, editar archivos, crear directorios, etc.
-              </p>
-              <a href="https://www.dropbox.com/s/jro8mmqthwlibom/Platzi-TerminalComandos.pdf?dl=0" class="link_certificado" target="_blank"><b> <i class="far fa-file-pdf"></i> Ver certificado </b></a>
-            </div>
-            <!-- Certificado Terminal de Comandos -->
-            <button class="accordion text-center"> <i class="fab fa-git-alt"></i> | Curso Profesional de Git y GitHub </button>
-            <div class="panel">
-              <h3>  Platzi | Curso Profesional de Git y GitHub </h3>
-              <p class="text-justify">
-                Aprendí a trabajar con un sistema de control de versiones tanto de forma local (Git) y forma web (GitHub). También logré comprender el flujo de
-                trabajo que se utiliza al usar un sistema de control de versiones.
-              </p>
-              <a href="https://www.dropbox.com/s/p4i102wup3tpamt/Platzi-CursoProfesionalDeGityGitHub.pdf?dl=0" class="link_certificado" target="_blank"><b> <i class="far fa-file-pdf"></i> Ver certificado </b></a>
-            </div>
-            <!-- Certificado Curso Básico de Python -->
-            <button class="accordion text-center"> <i class="fab fa-python"></i> | Curso Básico de Python  </button>
-            <div class="panel">
-              <h3>  Platzi | Curso Curso Básico de Python </h3>
-              <p class="text-justify">
-                En este curso aprendí los fundamentos de Python, entrada y salida de datos, condicionales, ciclos, funciones, etc.<br>
-                Fue un curso muy básico, pero entretenido.
-              </p>
-              <a href="https://www.dropbox.com/s/utxj40c6mdetifg/Platzi-.CursoBasicoDePython.pdf?dl=0" class="link_certificado" target="_blank"><b> <i class="far fa-file-pdf"></i> Ver certificado </b></a>
-            </div>
-            <!-- ..:: Portafolio / Proyectos ::.. -->
-            <br><br>
-            <h4> <i class="fas fa-laptop-code"></i> Portafolio y Proyectos</h4>
-            <hr class="hr-light">
-            <p>
-              Aquí hay algunos ejercicios y proyectos que he desarrollado a lo largo de mi formación, todos estos los he realizado
-              en lo que he aprendido en mi 'formación adicional', algunos son ejercicios muy sencillos y otros son un poco más complejos o completos.
-            </p>
-            <!-- PriceShop -->
-            <button class="accordion text-center">  PriceShop  </button>
-            <div class="panel">
-              <h3 class="text-center"> <i class="fas fa-tshirt"></i> PriceShop</h3>
-              <p class="text-justify">
-                Este es el primer proyecto 'grande' que comencé a desarrollar solo.
-                Este es un sistema para poder llevar el control de ventas por catálogo. Aún no está terminado pero ya maneja varias funciones
-                interesantes. El sitio web está montado en un host gratuito, está programado con PHP, jQuery, hace peticiones AJAX,
-                tiene varios CRUD y maneja sesiones. También usa DataTables, tiene una Base de Datos My SQL, el sitio no es responsivo al 100%
-                pero no se tiene una mala experiencia en móviles, usa la arquitectura MVC y tiene algunas APIs que son consumidas con AJAX.
-                Para entrar al sitio es necesario ingresar usuario y contraseña. Si está interesado en ver el sitio puede solicitarme el acceso,
-                ya que por seguridad del sitio, no dejaré los accesos aquí.
-              </p>
-              <a href="https://alphateammx.000webhostapp.com/PriceShop/login" class="link_certificado" target="_blank"><b> Ver sitio web </b></a>
-            </div>
-
-            <!-- OrderNow -->
-            <button class="accordion text-center">  Order Now  </button>
-            <div class="panel">
-              <h3 class="text-center"> <i class="fas fa-hamburger"></i> Order Now </h3>
-              <p class="text-justify">
-                Es el segundo sitio que contruyo solo. Es un sitio web para ordernar comida en línea, la idea es algo parecido a
-                un Uber eats, registrar a varios restaurantes y que estos suban cada uno su propio menú para poder realizar entregas
-                Usa la arquitectura MVC a diferencia del proyecto anterior 'PriceShop', este proyecto apenas está en la fase de maquetación.
-                Es responsivo, pero no al 100%
-              </p>
-              <a href="https://alphateammx.000webhostapp.com/OrderNow/" class="link_certificado" target="_blank"><b> Ver sitio web </b></a>
-            </div>
-
-
           </div>
         </div>
+        <!-- ..:: Constancia | Fundamentos Python ::.. -->
+        <div class="modal fade" id="modal-constancia-pythonbasico">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Certificaciones | Python Básico </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <img class="img-fluid" src="./assets/img/certificaciones/python_basico.jpg">
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Ya había manejado Python anteriormente, pero no había tomado un curso como tal.
+                      Aprendí los fundamentos y pude crear algunos programas sencillos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Order Now -->
+        <div class="modal fade" id="modal-ordernow">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Portafolio | Order Now </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <!-- Container for the image gallery -->
+                    <div class="container-img-slide">
+                      <!-- Full-width images with number text -->
+                      <div class="slide_ordernow">
+                        <div class="numbertext">1 / 3</div>
+                          <img src="./assets/img/proyects/ordernow/OrderNow_00.jpeg" style="width:100%">
+                      </div>
+                      <div class="slide_ordernow">
+                        <div class="numbertext">2 / 3</div>
+                          <img src="./assets/img/proyects/ordernow/OrderNow_01.jpeg" style="width:100%">
+                      </div>
+                      <div class="slide_ordernow">
+                        <div class="numbertext">3 / 3</div>
+                          <img src="./assets/img/proyects/ordernow/OrderNow_02.PNG" style="width:100%">
+                      </div>
+                      <!-- Next and previous buttons -->
+                      <a class="prev" onclick="plusSlides(-1, 'slide_ordernow', 'demo_ordernow')">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 'slide_ordernow', 'demo_ordernow')">&#10095;</a>
+                      <!-- Image text -->
+                      <div class="caption-container" style="display:none;">
+                        <p id="caption"></p>
+                      </div>
+                      <!-- Thumbnail images -->
+                      <div class="row thumbnail">
+                        <div class="column">
+                          <img class="demo_ordernow cursor" src="./assets/img/proyects/ordernow/OrderNow_01.jpeg" style="width:100%" onclick="currentSlide(1, 'slide_ordernow', 'demo_ordernow')" alt="The Woods">
+                        </div>
+                        <div class="column">
+                          <img class="demo_ordernow cursor" src="./assets/img/proyects/ordernow/OrderNow_01.jpeg" style="width:100%" onclick="currentSlide(2, 'slide_ordernow', 'demo_ordernow')" alt="Cinque Terre">
+                        </div>
+                        <div class="column">
+                          <img class="demo_ordernow cursor" src="./assets/img/proyects/ordernow/OrderNow_02.PNG" style="width:100%" onclick="currentSlide(3, 'slide_ordernow', 'demo_ordernow')" alt="Mountains and fjords">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Es un sitio web para ordernar comida en línea, la idea es algo parecido a un Uber eats, registrar a varios
+                      restaurantes para que estos suban cada uno su propio menú y así poder realizar pedidos y  entregas.
+                      Está desarrollado con PHP puro y Bootstrap usando la arquitectura MVC. Este proyecto está solo a nivel maquetación
+                      (HTML, CSS y Javascript)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tarjetas Cashback -->
+        <div class="modal fade" id="modal-tarjetas">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Portafolio | Tarjetas Cashback </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <!-- Container for the image gallery -->
+                    <div class="container-img-slide">
+                      <!-- Full-width images with number text -->
+                      <div class="slide_tarjetas">
+                        <div class="numbertext">1 / 6</div>
+                          <img src="./assets/img/proyects/tarjetas/Tarjetas-00.PNG" style="width:100%">
+                      </div>
+                      <div class="slide_tarjetas">
+                        <div class="numbertext">2 / 6</div>
+                          <img src="./assets/img/proyects/tarjetas/Tarjetas-01.PNG" style="width:100%">
+                      </div>
+                      <div class="slide_tarjetas">
+                        <div class="numbertext">3 / 6</div>
+                          <img src="./assets/img/proyects/tarjetas/Tarjetas-02.PNG" style="width:100%">
+                      </div>
+                      <div class="slide_tarjetas">
+                        <div class="numbertext">4 / 6</div>
+                          <img src="./assets/img/proyects/tarjetas/Tarjetas-03.PNG" style="width:100%">
+                      </div>
+                      <div class="slide_tarjetas">
+                        <div class="numbertext">5 / 6</div>
+                          <img src="./assets/img/proyects/tarjetas/Tarjetas-04.PNG" style="width:100%">
+                      </div>
+                      <div class="slide_tarjetas">
+                        <div class="numbertext">6 / 6</div>
+                          <img src="./assets/img/proyects/tarjetas/Tarjetas-05.PNG" style="width:100%">
+                      </div>
+                      <!-- Next and previous buttons -->
+                      <a class="prev" onclick="plusSlides(-1, 'slide_tarjetas', 'demo_tarjetas')">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 'slide_tarjetas', 'demo_tarjetas')">&#10095;</a>
+                      <!-- Image text -->
+                      <div class="caption-container" style="display:none;">
+                        <p id="caption"></p>
+                      </div>
+                      <!-- Thumbnail images -->
+                      <div class="row thumbnail">
+                        <div class="column">
+                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-00.PNG" style="width:100%" onclick="currentSlide(1, 'slide_tarjetas', 'demo_tarjetas')" alt="The Woods">
+                        </div>
+                        <div class="column">
+                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-01.PNG" style="width:100%" onclick="currentSlide(2, 'slide_tarjetas', 'demo_tarjetas')" alt="Cinque Terre">
+                        </div>
+                        <div class="column">
+                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-02.PNG" style="width:100%" onclick="currentSlide(3, 'slide_tarjetas', 'demo_tarjetas')" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-03.PNG" style="width:100%" onclick="currentSlide(4, 'slide_tarjetas', 'demo_tarjetas')" alt="The Woods">
+                        </div>
+                        <div class="column">
+                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-04.PNG" style="width:100%" onclick="currentSlide(5, 'slide_tarjetas', 'demo_tarjetas')" alt="Cinque Terre">
+                        </div>
+                        <div class="column">
+                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-05.PNG" style="width:100%" onclick="currentSlide(6, 'slide_tarjetas', 'demo_tarjetas')" alt="Mountains and fjords">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Este es un proyecto que desarrollé para un cliente de Freelancers, consiste en un pequeño sistema
+                      que administra tarjetas tipo cashback. Está desarrollado con PHP puro (Sin un Framework),
+                      MySQL/MariaDB, jQuery, Bootstrap. Usa la arquitectura MVC.
+                    </p>
+                    <a href="https://github.com/eddgalan/TarjetasLealtad" target="_blank" style="color:#000;"><i class="fab fa-github" style="font-size:30px;"></i> Ver código </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sistema Facturación -->
+        <div class="modal fade" id="modal-facturacion">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"> Portafolio | Sistema Facturación </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-8 col-md-12 col-sm-12">
+                    <!-- Container for the image gallery -->
+                    <div class="container-img-slide">
+                      <!-- Full-width images with number text -->
+                      <div class="slide_facturacion">
+                        <div class="numbertext">1 / 6</div>
+                          <img src="./assets/img/proyects/facturacion/facturacion_01.jpeg" style="width:100%">
+                      </div>
+                      <div class="slide_facturacion">
+                        <div class="numbertext">2 / 6</div>
+                          <img src="./assets/img/proyects/facturacion/facturacion_02.jpeg" style="width:100%">
+                      </div>
+                      <div class="slide_facturacion">
+                        <div class="numbertext">3 / 6</div>
+                          <img src="./assets/img/proyects/facturacion/facturacion_04.jpeg" style="width:100%">
+                      </div>
+                      <div class="slide_facturacion">
+                        <div class="numbertext">4 / 6</div>
+                          <img src="./assets/img/proyects/facturacion/facturacion_06.jpeg" style="width:100%">
+                      </div>
+                      <div class="slide_facturacion">
+                        <div class="numbertext">5 / 6</div>
+                          <img src="./assets/img/proyects/facturacion/facturacion_07.jpeg" style="width:100%">
+                      </div>
 
-      </div>
-    </div>
+                      <div class="slide_facturacion">
+                        <div class="numbertext">6 / 6</div>
+                          <img src="./assets/img/proyects/facturacion/facturacion_08.jpeg" style="width:100%">
+                      </div>
 
-    <!-- === MDB 4.8.11 === -->
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
-    <script type="text/javascript" src=""></script>
-    <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
+                      <!-- Next and previous buttons -->
+                      <a class="prev" onclick="plusSlides(-1, 'slide_facturacion', 'demo_facturacion')">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1, 'slide_facturacion', 'demo_facturacion')">&#10095;</a>
 
-      for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-      }
-    </script>
-</body>
+                      <!-- Image text -->
+                      <div class="caption-container" style="display:none;">
+                        <p id="caption"></p>
+                      </div>
+                      <!-- Thumbnail images -->
+                      <div class="row">
+                        <div class="column">
+                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_01.jpeg" style="width:100%" onclick="currentSlide(1, 'slide_facturacion', 'demo_facturacion')">
+                        </div>
+                        <div class="column">
+                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_02.jpeg" style="width:100%" onclick="currentSlide(2, 'slide_facturacion', 'demo_facturacion')">
+                        </div>
+                        <div class="column">
+                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_04.jpeg" style="width:100%" onclick="currentSlide(3, 'slide_facturacion', 'demo_facturacion')">
+                        </div>
+                        <div class="column">
+                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_06.jpeg" style="width:100%" onclick="currentSlide(4, 'slide_facturacion', 'demo_facturacion')">
+                        </div>
+                        <div class="column">
+                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_07.jpeg" style="width:100%" onclick="currentSlide(5, 'slide_facturacion', 'demo_facturacion')">
+                        </div>
+                        <div class="column">
+                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_08.jpeg" style="width:100%" onclick="currentSlide(6, 'slide_facturacion', 'demo_facturacion')">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h3>Descripción</h3>
+                    <p class="text-justify">
+                      Es un sistema web desarrollado con PHP puro (Sin ningún Framework) usa la arquitectura MVC,
+                      puede emitir comprobantes (CFDIs) incluso se pueden timbrar y envíar por correo.  Genera tanto el PDF
+                      como el XML, además de que se conecta a un PAC para poder emitir la factura al SAT.
+                      Está desarrollado con las siguientes tecnologías: PHP, jQuery, Bootstrap, MariaDB/MySQL, PDO, composer,
+                      TCPDF, MPDF, MailGun, ChartJS, varias APIs tanto REST como SOAP.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ..:: Scripts ::..-->
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="./assets/js/agency.js"></script>
+        <script src="./assets/js/scripts.js"></script>
+        <script src="./assets/js/slide.js"></script>
+    </body>
 </html>
