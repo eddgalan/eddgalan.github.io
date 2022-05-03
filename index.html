@@ -1,539 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Soy desarrollador web Jr con PHP y Python. He desarrollado diferentes tipos de proyectos
-        con ambos lenguajes de manera personal. Cada día aprendo cosas nuevas, me gustaría compartir en este espacio un poco de experiencia y
-        algunos proyectos.">
-        <meta name="author" content="Edson Galán Rosano" />
-        <title>My Web Site | Edson Galán </title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./assets/fonts/fontawesome-all.min.css">
-        <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
-        <link rel="stylesheet" href="./assets/fonts/fontawesome5-overrides.min.css">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body id="page-top">
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-            <div class="container"><a class="navbar-brand" href="#page-top">Desarrollador Web Jr.</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto text-uppercase">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about_of_me">Acerca de mi</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#formacion">Formación</a></li>
-                        <li class="nav-item" style="display:none;"><a class="nav-link js-scroll-trigger" href="#tecnologias">Experiencia laboral</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portafolio">Portafolio</a></li>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title> Mi Portafolio | Edson Galan </title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/24fbd618b2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark navbar-shrink" id="mainNav">
+      <div class="container">
+        <h1 class="navbar-brand" href="#page-top"> Desarrollador Web </h1>
+      </div>
+    </nav>
+    <!-- ¿Quién soy? -->
+    <section class="col-md-12" id="presentacion">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-uppercase section-heading">Acerca de mi</h2>
+            <h3 class="text-muted section-subheading">¿Quién soy?</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-2 col-sm-12"></div>
+          <div class="col-md-8 col-sm-12">
+            <img id="photo" src="./img/EdsonGalan-00.jpg" alt="Edson Galan Rosano">
+            <p class="text-muted text-justify">
+              Mi nombre es Edson Galan, tengo 25 años de edad y tengo más de 2 años de experiencia laboral trabajando en
+              proyectos de desarrollo de software. Las principales tecnologías con las que he trabajado son tecnologías
+              web, he trabajando tanto en el frontend, desarrollando páginas y sitios web, trabajando en el layout,
+              consumo de APIs y desarrollo de algunas funcionalidades; también he trabajado en el backend desarrollando
+              bases de datos, servicios REST y leyendo algunas peticiones para hacer UPDATEs e INSERTs en la Base de Datos,
+              por esa razón me considero un desarrollador full stack. Soy una persona autodidacta y me gusta estar
+              en continuo aprendizaje de nuevos lenguajes de programación, herramientas y tecnologías. Sería un gusto
+              conocernos y que podamos trabajar juntos.
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-12"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ¿Cuál es mi formación? -->
+    <section class="col-md-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-uppercase section-heading"> Certificaciones </h2>
+            <h3 class="text-muted section-subheading">¿Cuál es mi formación?</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-2 col-sm-12"></div>
+          <div class="col-md-8 col-sm-12">
+            <!-- <img id="photo" src="./img/EdsonGalan-00.jpg" alt="Edson Galan Rosano"> -->
+            <p class="text-muted text-justify">
+              Durante mi proceso de formación he tomado algunos cursos para aprender sobre las tecnologías con las
+              que trabajan las empresas para así poder capacitarme para el perfil que estas demandan.
+              Los cursos que he tomado son los siguientes:
+            </p>
+            <!-- Certificaciones -->
+            <div class="row text-center">
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="java">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-java fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">Fundamentos de Java</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="command_line">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-terminal fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">Línea de comandos (Linux)</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="git">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-git-alt fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">Git y GitHub<br><br></h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="fund_python">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-python fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">Fundamentos de Python</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="web_dev">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-code fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">Desarrollo Web</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="poo_javascript">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-js fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">POO en Javascript</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="docker">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-docker fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">Docker de principiante a experto</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia" data-certif="scrum">
+                <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i></span>
+                <h4 class="section-heading">SCRUM Developer</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-2 col-sm-12"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Tecnologías -->
+    <section class="col-md-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-uppercase section-heading">Tecnologías</h2>
+            <h3 class="text-muted section-subheading">¿Con qué tecnologías he trabajado?</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-2 col-sm-12"></div>
+          <div class="col-md-8 col-sm-12">
+            <!-- Tecnologías -->
+            <div class="row text-center">
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-lineacomandos"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-html5 fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">HTML 5</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-git"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-css3-alt fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">CSS 3<br><br></h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-js fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">Javascript</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-java"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-php fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">PHP</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-python fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">Django</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-database fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">MySQL</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-database fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">SQL Server</h4>
+              </div>
+              <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-docker fa-stack-1x fa-inverse"></i></span>
+                  <h4 class="section-heading">Docker</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-12"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Portafolio -->
+    <section class="col-md-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="text-uppercase section-heading">Portafolio</h2>
+            <h3 class="text-muted section-subheading">¿Qué he desarrollado?</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-2 col-sm-12"></div>
+          <div class="col-md-8 col-sm-12">
+            <p class="text-muted text-justify">
+              Durante mi proceso de aprendizaje he desarrollado algunos proyectos, la mayoría de
+              estos proyectos son web y estos son algunos de ellos.
+            </p>
+            <!-- Proyectos -->
+            <div class="row text-center">
+              <!-- ..:: Order Now ::.. -->
+              <div class="col-md-6 col-lg-4 mb-5">
+                <h3 class="text-center"> Order Now </h3>
+                <div class="mx-auto" data-toggle="modal" data-target="#modal-ordernow" onclick="reset_index()">
+                    <div class="container-img">
+                      <img class="img-fluid image img-porta" src="./img/proyects/OrderNow_00.jpeg" alt="...">
+                      <div class="overlay-text">
+                        <div class="text-fade">
+                          Es un sitio web para envíar comida a domicilio. Es un sitio parecido a Uber Eats.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- ..:: Tarjetas Lealtad ::.. -->
+              <div class="col-md-6 col-lg-4 mb-5">
+                <h3 class="text-center"> Tarjetas Lealtad </h3>
+                <div class="mx-auto" data-toggle="modal" data-target="#modal-tarjetas" onclick="reset_index()">
+                    <div class="container-img">
+                      <img class="img-fluid image img-porta" src="./img/proyects/Tarjetas-00.PNG" alt="...">
+                      <div class="overlay-text">
+                        <div class="text-fade">
+                          Es un pequeño sistema para administrar tarjetas tipo cashback.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- ..:: Sistema Facturación ::.. -->
+              <div class="col-md-6 col-lg-4 mb-5">
+                <h3 class="text-center"> Facturación 3.3 </h3>
+                <div class="mx-auto" data-toggle="modal" data-target="#modal-facturacion" onclick="reset_index()">
+                    <div class="container-img">
+                      <img class="img-fluid image img-porta" src="./img/proyects/facturacion_01.jpeg" alt="...">
+                      <div class="overlay-text">
+                        <div class="text-fade">
+                          Es un sistema hecho en PHP para poder emitir CFDIs. Genera comprobantes y se pueden timbrar.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <!-- <h3 class="text-muted section-subheading">
+                  En mi perfil de <a href="" target="_blank"> GitHub </a> puede encontrar más sobre mi trabajo. Los enlaces a mis redes están en la parte de abajo.
+                </h3> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-12"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="https://github.com/eddgalan" target="_blank"><i class="fab fa-github"></i></a></li><a href="https://github.com/eddgalan" target="_blank">
+                        </a><li class="list-inline-item"><a href="https://github.com/eddgalan" target="_blank"></a><a href="https://www.instagram.com/edd.developer.97/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCmfclUIekK-szw6N9yK28og" target="_blank"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
-        </nav>
-        <header class="masthead" style="background-image:url('./assets/img/background_01.jpg');">
-            <div class="container">
-                <div class="intro-text">
-                    <div class="intro-lead-in"></div>
-                    <div class="intro-heading text-uppercase"><span style="color:#E6E6E7;">Es un gusto conocerte</span></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" href="#about_of_me" style="color:#343a40;">Cuéntame más</a>
-                </div>
-            </div>
-        </header>
-        <!-- ..:: Acerca de mi ::.. -->
-        <section id="about_of_me">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="text-uppercase section-heading">Acerca de mi</h2>
-                        <h3 class="text-muted section-subheading" style="margin-top:20px !important; margin-bottom:20px !important;">¿Quién soy?</h3>
-                    </div>
-                </div>
-                <div class="row text-center">
-                  <div class="col-md-2 col-sm-12"></div>
-                  <div class="col-md-8 col-sm-12">
-                    <img id="photo" src="./assets/img/me_00.JPG">
-                    <!-- <h4 class="section-heading">Presentación</h4> -->
-                    <p class="text-muted text-justify">
-                        Mi nombres es Edson Galán soy una persona apasionada por la programación, la tecnología y el desarrollo de
-                        software. Soy una persona muy autodidacta y me gusta aprender cosas nuevas, afrontar nuevos retos e
-                        intercambiar conocimiento.<br>
-                        Tengo más de dos años de experiencia en el desarrollo web, me considero un desarrollador web fullstrack.
-                        Las principales tecnologías con las que trabajo son HTML, CSS, Javascript, jQuery, PHP, MySQL, MariaDB,
-                        Python, Git, GitHub, entre otras y me encuentro en continuo aprendizaje de nuevos lenguajes,
-                        herramientas y tecnologías.
-                    </p>
-                  </div>
-                  <div class="col-md-2 col-sm-12"></div>
-                </div>
-            </div>
-        </section>
-        <!-- ..:: Formación ::.. -->
-        <section id="formacion" class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="text-uppercase section-heading">Formación</h2>
-                        <h3 class="text-muted section-subheading">
-                          Desde hace tiempo he complementando mi formación profesional con algunos cursos en diferentes plataformas de internet
-                          como Platzi, Udemy, EDTeam e incluso con videos de YouTube. Actualmente continuo tomando cursos y
-                          consultando contenido para mejorar, seguir aprendiendo y conocer más herramientas y tecnologías.
-                        </h3>
-                    </div>
-                </div>
-                <div class="row text-center">
-                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-java"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-java fa-stack-1x fa-inverse"></i></span>
-                      <h4 class="section-heading">Fundamentos de Java</h4>
-                      <p class="text-muted">
-                        En Octubre de 2016 hice un examen para certificarme en fundamentos de Java. La certificación fue realizada por
-                        Develop.
-                      </p>
-                  </div>
-                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-lineacomandos"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-terminal fa-stack-1x fa-inverse"></i></span>
-                      <h4 class="section-heading">Línea de comandos (Linux)</h4>
-                      <p class="text-muted">
-                        Fue un curso teórico-práctico de 12 horas en la plataforma de Platzi.
-                      </p>
-                  </div>
-                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-git"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-git-alt fa-stack-1x fa-inverse"></i></span>
-                      <h4 class="section-heading">Git y GitHub<br><br></h4>
-                      <p class="text-muted">
-                        Este curso tuvo una duración de 22 horas de teoría y práctica en la plataforma de Platzi.
-                      </p>
-                  </div>
-                  <div class="col-md-3 open-modal" data-toggle="modal" data-target="#modal-constancia-pythonbasico"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fab fa-python fa-stack-1x fa-inverse"></i></span>
-                      <h4 class="section-heading">Fundamentos de Python</h4>
-                      <p class="text-muted">
-                        Fue un curso breve de Python con duración de 16 horas donde se explican sus fundamentos.
-                      </p>
-                  </div>
-                </div>
-            </div>
-        </section>
-        <!-- ..:: Portafolio ::.. -->
-        <section id="portafolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="text-uppercase section-heading">Portafolio</h2>
-                        <h3 class="text-muted section-subheading">
-                          Durante mi proceso de aprendizaje he desarrollado algunos proyectos para poder reforzar mis
-                          conocimientos y ponerlos en práctica. Algunos de mis mejores proyectos son los siguientes.
-                        </h3>
-                    </div>
-                </div>
-                <div class="row text-center">
-                  <!-- ..:: Order Now ::.. -->
-                  <div class="col-md-6 col-lg-4 mb-5">
-                      <h3 class="text-center"> Order Now <h3>
-                      <div class="mx-auto" data-toggle="modal" data-target="#modal-ordernow" onclick="reset_index()">
-                          <div class="container-img">
-                            <img class="img-fluid image img-porta" src="./assets/img/proyects/ordernow/OrderNow_00.jpeg" alt="...">
-                            <div class="overlay-text">
-                              <div class="text-fade">
-                                Es un sitio web para envíar comida a domicilio. Es un sitio parecido a Uber Eats. <br>Da clic para ver más información
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-                  <!-- ..:: Tarjetas Lealtad ::.. -->
-                  <div class="col-md-6 col-lg-4 mb-5">
-                      <h3 class="text-center"> Tarjetas Lealtad <h3>
-                      <div class="mx-auto" data-toggle="modal" data-target="#modal-tarjetas"  onclick="reset_index()">
-                          <div class="container-img">
-                            <img class="img-fluid image img-porta" src="./assets/img/proyects/tarjetas/Tarjetas-000.PNG" alt="...">
-                            <div class="overlay-text">
-                              <div class="text-fade">
-                                Es un pequeño sistema para administrar tarjetas tipo cashback. <br>Da clic para ver más información
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-                  <!-- ..:: Sistema Facturación ::.. -->
-                  <div class="col-md-6 col-lg-4 mb-5">
-                      <h3 class="text-center"> Sistema Facturación <h3>
-                      <div class="mx-auto" data-toggle="modal" data-target="#modal-facturacion"  onclick="reset_index()">
-                          <div class="container-img">
-                            <img class="img-fluid image img-porta" src="./assets/img/proyects/facturacion/facturacion_00.PNG" alt="...">
-                            <div class="overlay-text">
-                              <div class="text-fade">
-                                Es un sistema hecho en PHP para poder emitir CFDIs. Genera comprobantes y se pueden timbrar. <br>Da clic para ver más información
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <!-- <h3 class="text-muted section-subheading">
-                      En mi perfil de <a href="" target="_blank"> GitHub </a> puede encontrar más sobre mi trabajo. Los enlaces a mis redes están en la parte de abajo.
-                    </h3> -->
-                  </div>
-                </div>
-            </div>
-        </section>
-        <!-- ..:: FOOTER ::.. -->
-        <footer style="background-color:#212529;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4"><span class="copyright">Edson Galán </span></div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="https://github.com/eddgalan" target="_blank"><i class="fab fa-github"></i></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com/edd.developer.97/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCmfclUIekK-szw6N9yK28og" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- <ul class="list-inline quicklinks">
-                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                            <li class="list-inline-item"><a href="#">Terms of Use</a></li>
-                        </ul> -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- ..:: MODALS ::.. -->
-        <!-- ..:: Constancia | Java ::.. -->
-        <div class="modal fade" id="modal-constancia-java">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Certificaciones | Fundamentos de Java </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+    </footer>
+    <!-- ..:: Modales ::.. -->
+    <!-- Constancias -->
+    <div class="modal fade" id="modal-constancia">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" name="certificaciones"> Certificaciones | Fundamentos de Java </h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-8">
+                <img class="img-fluid" name="certificado-img" src="" alt="">
               </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <img class="img-fluid" src="./assets/img/certificaciones/fundamentos_java.jpg">
-                  </div>
-                  <div class="col-lg-4">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Mediante un examen de conocimientos de Java logré acreditar esta certificación. El examen cubría
-                      temas básicos del lenguaje: Lectura de datos, estructuras condicionales, estructuras cíclicas,
-                      tipos de datos y funciones.
-                    </p>
-                  </div>
-                </div>
+              <div class="col-lg-4">
+                <h3>Descripción</h3>
+                <p class="text-justify" name="certificacion-descrip">
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <!-- ..:: Constancia | Línea de comandos ::.. -->
-        <div class="modal fade" id="modal-constancia-lineacomandos">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Certificaciones | Línea de comandos en Linux </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <img class="img-fluid" src="./assets/img/certificaciones/terminal_comandos.jpg">
-                  </div>
-                  <div class="col-lg-4">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Fue un curso introductorio a la línea de comandos de Linux. Aprendí a usar algunos comandos
-                      básicos del sistema como navegar entre directorios, crear archivos y directorios,
-                      instalar algunas aplicaciones, incluso aprendí a editar archivos con el editor Vim.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ..:: Constancia | Git y GitHub ::.. -->
-        <div class="modal fade" id="modal-constancia-git">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Certificaciones | Línea de comandos en Linux </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <img class="img-fluid" src="./assets/img/certificaciones/git_github.jpg">
-                  </div>
-                  <div class="col-lg-4">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Un curso muy completo para aprender a usar Git y GitHub. Sé usar los comandos más importantes de
-                      Git para poder crear repositorios, descargarlos, subir cambios, descargar cambios, trabajar con ramas,
-                      hacer merge-request, entre otras acciones.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ..:: Constancia | Fundamentos Python ::.. -->
-        <div class="modal fade" id="modal-constancia-pythonbasico">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Certificaciones | Python Básico </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <img class="img-fluid" src="./assets/img/certificaciones/python_basico.jpg">
-                  </div>
-                  <div class="col-lg-4">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Ya había manejado Python anteriormente, pero no había tomado un curso como tal.
-                      Aprendí los fundamentos y pude crear algunos programas sencillos.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Order Now -->
-        <div class="modal fade" id="modal-ordernow">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Portafolio | Order Now </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <!-- Container for the image gallery -->
-                    <div class="container-img-slide">
-                      <!-- Full-width images with number text -->
-                      <div class="slide_ordernow">
-                        <div class="numbertext">1 / 3</div>
-                          <img src="./assets/img/proyects/ordernow/OrderNow_00.jpeg" style="width:100%">
-                      </div>
-                      <div class="slide_ordernow">
-                        <div class="numbertext">2 / 3</div>
-                          <img src="./assets/img/proyects/ordernow/OrderNow_01.jpeg" style="width:100%">
-                      </div>
-                      <div class="slide_ordernow">
-                        <div class="numbertext">3 / 3</div>
-                          <img src="./assets/img/proyects/ordernow/OrderNow_02.PNG" style="width:100%">
-                      </div>
-                      <!-- Next and previous buttons -->
-                      <a class="prev" onclick="plusSlides(-1, 'slide_ordernow', 'demo_ordernow')">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1, 'slide_ordernow', 'demo_ordernow')">&#10095;</a>
-                      <!-- Image text -->
-                      <div class="caption-container" style="display:none;">
-                        <p id="caption"></p>
-                      </div>
-                      <!-- Thumbnail images -->
-                      <div class="row thumbnail">
-                        <div class="column">
-                          <img class="demo_ordernow cursor" src="./assets/img/proyects/ordernow/OrderNow_01.jpeg" style="width:100%" onclick="currentSlide(1, 'slide_ordernow', 'demo_ordernow')" alt="The Woods">
-                        </div>
-                        <div class="column">
-                          <img class="demo_ordernow cursor" src="./assets/img/proyects/ordernow/OrderNow_01.jpeg" style="width:100%" onclick="currentSlide(2, 'slide_ordernow', 'demo_ordernow')" alt="Cinque Terre">
-                        </div>
-                        <div class="column">
-                          <img class="demo_ordernow cursor" src="./assets/img/proyects/ordernow/OrderNow_02.PNG" style="width:100%" onclick="currentSlide(3, 'slide_ordernow', 'demo_ordernow')" alt="Mountains and fjords">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Es un sitio web para ordernar comida en línea, la idea es algo parecido a un Uber eats, registrar a varios
-                      restaurantes para que estos suban cada uno su propio menú y así poder realizar pedidos y  entregas.
-                      Está desarrollado con PHP puro y Bootstrap usando la arquitectura MVC. Este proyecto está solo a nivel maquetación
-                      (HTML, CSS y Javascript)
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Tarjetas Cashback -->
-        <div class="modal fade" id="modal-tarjetas">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Portafolio | Tarjetas Cashback </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <!-- Container for the image gallery -->
-                    <div class="container-img-slide">
-                      <!-- Full-width images with number text -->
-                      <div class="slide_tarjetas">
-                        <div class="numbertext">1 / 6</div>
-                          <img src="./assets/img/proyects/tarjetas/Tarjetas-00.PNG" style="width:100%">
-                      </div>
-                      <div class="slide_tarjetas">
-                        <div class="numbertext">2 / 6</div>
-                          <img src="./assets/img/proyects/tarjetas/Tarjetas-01.PNG" style="width:100%">
-                      </div>
-                      <div class="slide_tarjetas">
-                        <div class="numbertext">3 / 6</div>
-                          <img src="./assets/img/proyects/tarjetas/Tarjetas-02.PNG" style="width:100%">
-                      </div>
-                      <div class="slide_tarjetas">
-                        <div class="numbertext">4 / 6</div>
-                          <img src="./assets/img/proyects/tarjetas/Tarjetas-03.PNG" style="width:100%">
-                      </div>
-                      <div class="slide_tarjetas">
-                        <div class="numbertext">5 / 6</div>
-                          <img src="./assets/img/proyects/tarjetas/Tarjetas-04.PNG" style="width:100%">
-                      </div>
-                      <div class="slide_tarjetas">
-                        <div class="numbertext">6 / 6</div>
-                          <img src="./assets/img/proyects/tarjetas/Tarjetas-05.PNG" style="width:100%">
-                      </div>
-                      <!-- Next and previous buttons -->
-                      <a class="prev" onclick="plusSlides(-1, 'slide_tarjetas', 'demo_tarjetas')">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1, 'slide_tarjetas', 'demo_tarjetas')">&#10095;</a>
-                      <!-- Image text -->
-                      <div class="caption-container" style="display:none;">
-                        <p id="caption"></p>
-                      </div>
-                      <!-- Thumbnail images -->
-                      <div class="row thumbnail">
-                        <div class="column">
-                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-00.PNG" style="width:100%" onclick="currentSlide(1, 'slide_tarjetas', 'demo_tarjetas')" alt="The Woods">
-                        </div>
-                        <div class="column">
-                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-01.PNG" style="width:100%" onclick="currentSlide(2, 'slide_tarjetas', 'demo_tarjetas')" alt="Cinque Terre">
-                        </div>
-                        <div class="column">
-                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-02.PNG" style="width:100%" onclick="currentSlide(3, 'slide_tarjetas', 'demo_tarjetas')" alt="Mountains and fjords">
-                        </div>
-                        <div class="column">
-                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-03.PNG" style="width:100%" onclick="currentSlide(4, 'slide_tarjetas', 'demo_tarjetas')" alt="The Woods">
-                        </div>
-                        <div class="column">
-                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-04.PNG" style="width:100%" onclick="currentSlide(5, 'slide_tarjetas', 'demo_tarjetas')" alt="Cinque Terre">
-                        </div>
-                        <div class="column">
-                          <img class="demo_tarjetas cursor" src="./assets/img/proyects/tarjetas/Tarjetas-05.PNG" style="width:100%" onclick="currentSlide(6, 'slide_tarjetas', 'demo_tarjetas')" alt="Mountains and fjords">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Este es un proyecto que desarrollé para un cliente de Freelancers, consiste en un pequeño sistema
-                      que administra tarjetas tipo cashback. Está desarrollado con PHP puro (Sin un Framework),
-                      MySQL/MariaDB, jQuery, Bootstrap. Usa la arquitectura MVC.
-                    </p>
-                    <a href="https://github.com/eddgalan/TarjetasLealtad" target="_blank" style="color:#000;"><i class="fab fa-github" style="font-size:30px;"></i> Ver código </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Sistema Facturación -->
-        <div class="modal fade" id="modal-facturacion">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title"> Portafolio | Sistema Facturación </h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-lg-8 col-md-12 col-sm-12">
-                    <!-- Container for the image gallery -->
-                    <div class="container-img-slide">
-                      <!-- Full-width images with number text -->
-                      <div class="slide_facturacion">
-                        <div class="numbertext">1 / 6</div>
-                          <img src="./assets/img/proyects/facturacion/facturacion_01.jpeg" style="width:100%">
-                      </div>
-                      <div class="slide_facturacion">
-                        <div class="numbertext">2 / 6</div>
-                          <img src="./assets/img/proyects/facturacion/facturacion_02.jpeg" style="width:100%">
-                      </div>
-                      <div class="slide_facturacion">
-                        <div class="numbertext">3 / 6</div>
-                          <img src="./assets/img/proyects/facturacion/facturacion_04.jpeg" style="width:100%">
-                      </div>
-                      <div class="slide_facturacion">
-                        <div class="numbertext">4 / 6</div>
-                          <img src="./assets/img/proyects/facturacion/facturacion_06.jpeg" style="width:100%">
-                      </div>
-                      <div class="slide_facturacion">
-                        <div class="numbertext">5 / 6</div>
-                          <img src="./assets/img/proyects/facturacion/facturacion_07.jpeg" style="width:100%">
-                      </div>
+      </div>
+    </div>
 
-                      <div class="slide_facturacion">
-                        <div class="numbertext">6 / 6</div>
-                          <img src="./assets/img/proyects/facturacion/facturacion_08.jpeg" style="width:100%">
-                      </div>
-
-                      <!-- Next and previous buttons -->
-                      <a class="prev" onclick="plusSlides(-1, 'slide_facturacion', 'demo_facturacion')">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1, 'slide_facturacion', 'demo_facturacion')">&#10095;</a>
-
-                      <!-- Image text -->
-                      <div class="caption-container" style="display:none;">
-                        <p id="caption"></p>
-                      </div>
-                      <!-- Thumbnail images -->
-                      <div class="row">
-                        <div class="column">
-                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_01.jpeg" style="width:100%" onclick="currentSlide(1, 'slide_facturacion', 'demo_facturacion')">
-                        </div>
-                        <div class="column">
-                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_02.jpeg" style="width:100%" onclick="currentSlide(2, 'slide_facturacion', 'demo_facturacion')">
-                        </div>
-                        <div class="column">
-                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_04.jpeg" style="width:100%" onclick="currentSlide(3, 'slide_facturacion', 'demo_facturacion')">
-                        </div>
-                        <div class="column">
-                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_06.jpeg" style="width:100%" onclick="currentSlide(4, 'slide_facturacion', 'demo_facturacion')">
-                        </div>
-                        <div class="column">
-                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_07.jpeg" style="width:100%" onclick="currentSlide(5, 'slide_facturacion', 'demo_facturacion')">
-                        </div>
-                        <div class="column">
-                          <img class="demo_facturacion cursor" src="./assets/img/proyects/facturacion/facturacion_08.jpeg" style="width:100%" onclick="currentSlide(6, 'slide_facturacion', 'demo_facturacion')">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h3>Descripción</h3>
-                    <p class="text-justify">
-                      Es un sistema web desarrollado con PHP puro (Sin ningún Framework) usa la arquitectura MVC,
-                      puede emitir comprobantes (CFDIs) incluso se pueden timbrar y envíar por correo.  Genera tanto el PDF
-                      como el XML, además de que se conecta a un PAC para poder emitir la factura al SAT.
-                      Está desarrollado con las siguientes tecnologías: PHP, jQuery, Bootstrap, MariaDB/MySQL, PDO, composer,
-                      TCPDF, MPDF, MailGun, ChartJS, varias APIs tanto REST como SOAP.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ..:: Scripts ::..-->
-        <script src="./assets/js/jquery.min.js"></script>
-        <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="./assets/js/agency.js"></script>
-        <script src="./assets/js/scripts.js"></script>
-        <script src="./assets/js/slide.js"></script>
-    </body>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/load-modal.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
