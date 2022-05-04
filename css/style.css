@@ -17,9 +17,36 @@ h3 {
 .open-modal{
   cursor:pointer;
 }
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.img-porta{
+  height: 135px;
+  cursor:pointer;
+}
+.color-html{
+  color: #FF5733!important;
+}
+.color-css {
+  color: #007bff!important;
+}
+.color-javascript {
+  color: #fed136 !important;
+}
+.color-php {
+  color: #7D1DD2 !important;
+}
+.color-mysql {
+  color: #71AEF0 !important;
+}
+.color-sqlserver {
+  color: #FF0E0E !important;
+}
 footer{
   background-color:#212529;
-  padding-top:0px;
+  padding-top:20px;
 }
 ul.social-buttons li a {
   font-size: 20px;
