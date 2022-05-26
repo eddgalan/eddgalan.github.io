@@ -34,4 +34,5 @@ function reset_index(){
   showSlides(slideIndex, 'slide_facturacion', 'demo_facturacion');
   showSlides(slideIndex, 'slide_ordernow', 'demo_ordernow');
   showSlides(slideIndex, 'slide_tarjetas', 'demo_tarjetas');
+  showSlides(slideIndex, 'slide_music', 'demo_music');
 }
