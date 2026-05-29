@@ -33,9 +33,6 @@ header .buttons-container .minimize {
 header .buttons-container .maximize {
     background: green;
 }
-header .title-container .title {
-    color: #00FF88;
-}
 header hr {
     border-color: green;
     margin-top: 5px;

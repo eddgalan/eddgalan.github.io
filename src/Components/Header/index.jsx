@@ -1,4 +1,5 @@
-import './index.css'
+import { CommandLine } from "../CommandLine/index.jsx";
+import './index.css';
 
 function Header() {
   return (
@@ -11,7 +12,7 @@ function Header() {
         </div>
 
         <div className="title-container">
-          <p className="title">edson@portfolio: ~</p>
+          <CommandLine />
         </div>
       </div>
 
