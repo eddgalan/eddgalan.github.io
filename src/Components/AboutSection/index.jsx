@@ -1,6 +1,8 @@
 import { CommandLine } from "../CommandLine";
 import { SystemStatusScreen } from "../SystemStatusScreen";
 import { ListItems } from "../ListItems";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 import './style.css';
 
 function AboutSection() {
@@ -34,6 +36,14 @@ function AboutSection() {
         <div className="about-status">
           <SystemStatusScreen />
         </div>
+      </div>
+      <div className="social-media-container">
+        <a className="social-button" href="https://github.com/eddgalan" target="_blank" rel="noopener noreferrer">
+          <FaGithub size={30} />
+        </a>
+        <a className="social-button" href="https://www.linkedin.com/in/eddgalan" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin size={30} />
+        </a>
       </div>
     </section>
   );

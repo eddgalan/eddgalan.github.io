@@ -18,3 +18,13 @@ section#about .about-container .about-status {
     justify-content: center;
     align-items: center;
 }
+section#about .social-media-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+section#about .social-media-container .social-button {
+    border: 1px solid #00FF88;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
