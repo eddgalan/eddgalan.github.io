@@ -14,6 +14,7 @@
     padding: 0;
     background: #0F0F0F;
     color: #FFF;
+    font-family: 'JetBrains Mono', sans-serif;
 }
 
 html {
@@ -41,12 +42,6 @@ button,
 textarea,
 select {
     font: inherit;
-}
-
-button {
-    border: none;
-    background: none;
-    cursor: pointer;
 }
 
 a {

@@ -1,7 +1,8 @@
+import AppUI from './AppUI'
+
 function App() {
   return (
-    <>
-    </>
+    <AppUI />
   )
 }
 
