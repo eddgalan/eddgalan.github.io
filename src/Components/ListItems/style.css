@@ -1,0 +1,4 @@
+section#about .about-container ul li::before {
+    content: '>';
+    margin-right: 10px;
+}
