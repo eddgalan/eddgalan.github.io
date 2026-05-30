@@ -1,0 +1,19 @@
+h2 {
+    color: #14FF95;
+}
+div.academic-info h3.academic-title {
+    margin: 0.3rem 0;
+    font-size: 1.1rem;
+}
+div.academic-info h3.academic-title::before {
+    content: "> ";
+    color: #00FF88;
+    font-weight: bold;
+}
+div.academic-info p.institution, div.academic-info p.date {
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+div.academic-info p.date {
+    color: #d0d7de;
+}

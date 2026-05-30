@@ -77,9 +77,12 @@ h6 {
 h1 {
     color: #14FF95;
 }
-div.experience-skill-sections {
+div.double-section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 1px solid #00FF88;
     padding: 0 1rem;
+}
+div.irregular {
+    grid-template-columns: 1fr 2fr;
 }
