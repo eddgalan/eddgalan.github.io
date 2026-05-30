@@ -1,6 +1,9 @@
-#experience {
+div.experience-skill-sections section {
     padding: 0 0 1rem 1rem;
+}
+#experience {
     color: #e6edf3;
+    border-right: 1px solid #00FF88;
 }
 
 .timeline {

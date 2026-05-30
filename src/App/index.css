@@ -81,5 +81,5 @@ div.experience-skill-sections {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 1px solid #00FF88;
-    padding: 1rem;
+    padding: 0 1rem;
 }
