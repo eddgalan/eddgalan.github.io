@@ -140,7 +140,7 @@ function EducationSection() {
       show: false
     },
     {
-      id: null,
+      id: '`docker-2022-04',
       title: 'Docker',
       expedition: '2022-04',
       show: true
