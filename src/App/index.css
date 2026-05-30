@@ -74,3 +74,12 @@ h6 {
     min-height: 100vh;
     padding: 0 1rem;
 }
+h1 {
+    color: #14FF95;
+}
+div.experience-skill-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #00FF88;
+    padding: 1rem;
+}

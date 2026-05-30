@@ -7,9 +7,6 @@ section#about .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-section#about .about-container h1 {
-    color: #14FF95;
-}
 section#about .about-container p.about-description {
     margin: 1rem 0;
 }
