@@ -1,0 +1,9 @@
+div.academic-info h3::before {
+    content: "> ";
+    color: #00FF88;
+    font-weight: bold;
+}
+
+div.academic-info .professional-date {
+    padding-left: 1.2rem;
+}
