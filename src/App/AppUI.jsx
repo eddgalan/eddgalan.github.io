@@ -4,6 +4,7 @@ import { AboutSection } from '../Components/AboutSection';
 import { ExperienceSection } from '../Components/ExperienceSection';
 import { SkillsSection } from '../Components/SkillsSection';
 import { EducationSection } from '../Components/EducationSection';
+import { ProjectsSection } from '../Components/ProjectsSection';
 import './index.css';
 
 function AppUI() {
@@ -18,7 +19,7 @@ function AppUI() {
       </div>
       <div className="double-section-container irregular">
         <EducationSection />
-        <section id="projects">x</section>
+        <ProjectsSection />
       </div>
     </>
   )

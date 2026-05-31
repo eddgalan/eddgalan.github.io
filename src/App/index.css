@@ -83,6 +83,7 @@ div.double-section-container {
     border: 1px solid #00FF88;
     padding: 0 1rem;
 }
-div.irregular {
-    grid-template-columns: 1fr 2fr;
+div.double-section-container.irregular {
+    display: grid;
+    grid-template-columns: minmax(280px, 1fr) minmax(0, 2fr);
 }
