@@ -26,11 +26,12 @@ function AboutSection() {
           <p className="about-description">
             Desarrollador Full Stack con experiencia en desarrollo backend y plataformas de comercio electrónico.
             He trabajado principalmente con PHP (Puro y CodeIgniter), Magento 2 / Adobe Commerce y tecnologías
-            relacionadas al desarrollo de sistemas, automatización de procesos e integración de APIs (REST y GraphQl).
+            frontend como HTML, CSS, JavaScript, jQuery, Bootstrap. También en el desarrollo de integraciones de APIs
+            de tipo REST y GraphQl.
             <br/>
             Actualmente me encuentro ampliando mi perfil hacia el desarrollo Full Stack moderno, fortaleciendo mis
-            conocimientos en tecnologías frontend como React, TypeScript y CSS, complementando mi experiencia backend
-            con el desarrollo de interfaces modernas y consumo de APIs.
+            conocimientos en tecnologías frontend como React, TypeScript y CSS, complementando mi experiencia frontend
+            con interfaces modernas.
           </p>
         </div>
         <div className="about-status">

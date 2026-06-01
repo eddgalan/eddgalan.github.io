@@ -9,6 +9,7 @@ function SystemStatusScreen() {
     { index: '4', description: 'PHP:', additionalText: 'ONLINE', textClass: 'green' },
     { index: '5', description: 'Magento 2:', additionalText: 'ONLINE', textClass: 'green' },
     { index: '6', description: 'React:', additionalText: 'LEARNING', textClass: 'yellow' },
+    { index: '6', description: 'TypeScript:', additionalText: 'LEARNING', textClass: 'yellow' },
     { index: '7', description: 'Coffee:', additionalText: 'LOW ☕️', textClass: 'red' },
   ];
 
