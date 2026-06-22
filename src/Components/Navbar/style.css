@@ -1,0 +1,10 @@
+nav {
+    padding: 0.5rem;
+}
+nav .dirList {
+    display: flex;
+    justify-content: space-around;
+}
+nav .dirList a {
+    color: #00FF88;
+}

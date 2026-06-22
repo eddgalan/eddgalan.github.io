@@ -1,0 +1,12 @@
+div.system-status h2 {
+    color: #14FF95;
+}
+div.system-status ul.listItems li span.green {
+    color: #00FF88;
+}
+div.system-status ul.listItems li span.yellow {
+    color: #FFC700;
+}
+div.system-status ul.listItems li span.red {
+    color: #FF0000;
+}

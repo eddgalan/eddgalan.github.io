@@ -1,0 +1,28 @@
+section#about {
+    border: 1px solid #00FF88;
+    padding: 1rem;
+}
+section#about .about-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section#about .about-container p.about-description {
+    margin: 1rem 0;
+}
+section#about .about-container .about-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#about .social-media-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+section#about .social-media-container .social-button {
+    border: 1px solid #00FF88;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    box-shadow: 0 0 8px #00FF88;
+}

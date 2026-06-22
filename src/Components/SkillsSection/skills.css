@@ -1,0 +1,9 @@
+div.skill-topic ul.skill-list {
+    padding: 0 2rem;
+}
+div.skill-topic ul.skill-list li.skill-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}

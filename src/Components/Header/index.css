@@ -1,0 +1,39 @@
+header {
+    padding: 10px;
+}
+header .header-top {
+    display: flex;
+}
+header .buttons-container {
+    display: flex;
+    align-items: center;
+}
+header .buttons-container button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-weight: bold;
+}
+header .buttons-container button:hover {
+    opacity: 0.8;
+}
+header .buttons-container:hover button::first-letter {
+    color: #FFF;
+}
+header .buttons-container button::first-letter {
+    color: transparent;
+}
+header .buttons-container .exit {
+    background: crimson;
+}
+header .buttons-container .minimize {
+    background: orange;
+}
+header .buttons-container .maximize {
+    background: green;
+}
+header hr {
+    border-color: #00FF88;
+    margin-top: 5px;
+}

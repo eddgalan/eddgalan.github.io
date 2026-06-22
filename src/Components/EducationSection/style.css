@@ -1,0 +1,20 @@
+section#education {
+    border-right: 1px solid #00FF88;
+    padding-right: 2rem;
+}
+div.academic-info {
+    margin-top: 1rem;
+}
+div.academic-info h3::before {
+    content: "> ";
+    color: #00FF88;
+    font-weight: bold;
+}
+div.academic-info .professional-date {
+    padding-left: 1.2rem;
+}
+section#education > div.academic-info {
+    border: solid 1px #00FF88;
+    padding: 1rem;
+    box-shadow: 0 0 8px #00FF88;
+}
