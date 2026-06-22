@@ -49,6 +49,15 @@ function ProjectsSection() {
       icon: '',
       link: 'https://github.com/eddgalan/Curses/tree/frontend/Frontend/curso-react-intro-main',
     },
+    {
+      index: '6',
+      title: 'Foro con Laravel',
+      shortDescription: 'foro_laravel',
+      description: 'Aplicacion web tipo foro construida con Laravel y Livewire. Permite publicar preguntas por categoria, responder discusiones, comentar preguntas o respuestas y marcar contenido con corazones.',
+      technologies: ['PHP', 'Laravel', 'HTML', 'Livewire', 'Tailwind CSS'],
+      icon: '',
+      link: 'https://github.com/eddgalan/CursoDeLaravel13',
+    },
   ];
 
   return (
