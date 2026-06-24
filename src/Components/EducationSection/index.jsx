@@ -20,6 +20,12 @@ function EducationSection() {
   ];
   const professionalDevelopmentItems = [
     {
+      id: 'f6bdbdb4-d306-488e-ab78-55462e5e07cf',
+      title: 'Tailwind CSS',
+      expedition: '2026-06',
+      show: true
+    },
+    {
       id: '7b0e2cf9-325d-4f36-91b5-c57a19e6839f',
       title: 'Curso de Laravel',
       expedition: '2026-06',
