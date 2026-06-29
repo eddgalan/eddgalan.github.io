@@ -20,8 +20,14 @@ function EducationSection() {
   ];
   const professionalDevelopmentItems = [
     {
+      id: 'eaaecfc9-f484-4998-99e2-724079a14b2c',
+      title: 'Curso de React.js con TypeScript',
+      expedition: '2026-06',
+      show: true
+    },
+    {
       id: 'f6bdbdb4-d306-488e-ab78-55462e5e07cf',
-      title: 'Tailwind CSS',
+      title: 'Curso de Tailwind CSS',
       expedition: '2026-06',
       show: true
     },
